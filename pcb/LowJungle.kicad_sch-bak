@@ -240,58 +240,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 176.53 128.27)
-		(size 26.67 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dad282c8-674f-4062-a32d-534326400aad")
-		(property "Sheetname" "LEDs"
-			(at 176.53 127.5584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "leds.kicad_sch"
-			(at 176.53 136.4746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DIN" input
-			(at 176.53 132.08 180)
-			(uuid "ca1a4dd2-85ea-42f2-b873-e528cc37336d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "LowJungle"
-				(path "/35a333ff-4765-4a57-b568-da2531002cc6"
-					(page "3")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

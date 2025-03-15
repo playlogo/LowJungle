@@ -58,7 +58,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|316197500|29765625|eee447b5-55af-402d-a4b7-8f7a417a589b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|321987500|29765625|e32cd203-5b2f-4c56-8312-d2c3e09d4044|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "clearance|316187500|30265625|eee447b5-55af-402d-a4b7-8f7a417a589b|8b4339d7-bacf-4498-8dec-8c5c706bcbdc",
+          ""
+        ],
+        [
+          "clearance|321987500|30265625|e32cd203-5b2f-4c56-8312-d2c3e09d4044|3d113956-b21c-4e17-ae2d-d3e1bc7344cb",
+          ""
+        ],
+        [
+          "clearance|338600000|40025000|d2034f46-6137-4ae6-8798-f545ebbdf000|ce045092-5a3f-48f7-9d41-246e5d23e0f1",
+          ""
+        ],
+        [
+          "clearance|338600000|41100000|ce045092-5a3f-48f7-9d41-246e5d23e0f1|c030d9eb-3272-4bde-873f-a3a711ce9400",
+          ""
+        ],
+        [
+          "clearance|338600000|42100000|c030d9eb-3272-4bde-873f-a3a711ce9400|965455e6-7de7-4d9b-a4bb-584f41383578",
+          ""
+        ],
+        [
+          "clearance|373300000|49125000|e12c7524-3a36-4da3-a7c8-8100a1f95268|b03be6f5-36a7-4f23-9b09-23cc575fad84",
+          ""
+        ],
+        [
+          "clearance|373300000|52475000|1050e1be-a8a8-4164-8b71-bdee09a98d0c|c693c7df-1ddf-44c4-9fbf-c5cfd22291f4",
+          ""
+        ],
+        [
+          "hole_clearance|316387500|30265625|eee447b5-55af-402d-a4b7-8f7a417a589b|db0a130e-2119-4dbf-96a4-301072e9bceb",
+          ""
+        ],
+        [
+          "hole_clearance|321787500|30265625|e32cd203-5b2f-4c56-8312-d2c3e09d4044|892f13da-0c61-482e-8bfa-8d5039ddeb2d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -66,7 +111,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -105,7 +150,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",

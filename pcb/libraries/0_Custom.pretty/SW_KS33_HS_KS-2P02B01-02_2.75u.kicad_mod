@@ -160,6 +160,28 @@
 		(layer "Eco2.User")
 		(uuid "822e1ede-ad8c-45b4-a95c-c21fefc1a1d0")
 	)
+	(fp_rect
+		(start -15 -4.75)
+		(end -9 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "377ec9c1-6b06-41f9-87e4-650784071581")
+	)
+	(fp_rect
+		(start 9 -4.75)
+		(end 15 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "cca0657c-84b2-4135-b3b6-33033d560e5a")
+	)
 	(fp_line
 		(start -9.045 3.4)
 		(end -9.045 6)

@@ -637,6 +637,18 @@
     [
       "dad282c8-674f-4062-a32d-534326400aad",
       "LEDs"
+    ],
+    [
+      "424a3bc0-3bd6-492d-ac2c-33d9cd385563",
+      "USB"
+    ],
+    [
+      "c1207fa4-fe30-475e-a4f1-a774690540aa",
+      "MCU"
+    ],
+    [
+      "bd9c83a0-4d1c-48aa-82e8-e625b5ec0b94",
+      "Bits"
     ]
   ],
   "text_variables": {}

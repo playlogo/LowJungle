@@ -5,6 +5,146 @@
 	(uuid "b6701604-b858-4963-b616-adf3dd690b7a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -345,7 +485,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
+		(symbol "power:Vdrive"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -366,7 +506,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VBUS"
+			(property "Value" "Vdrive"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -392,7 +532,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(property "Description" "Power symbol creates a global label with name \"Vdrive\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -410,7 +550,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VBUS_0_1"
+			(symbol "Vdrive_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -448,7 +588,7 @@
 					)
 				)
 			)
-			(symbol "VBUS_1_1"
+			(symbol "Vdrive_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -610,6 +750,12 @@
 		(uuid "22d978ac-2b12-46af-82d4-7f0672c389a8")
 	)
 	(junction
+		(at 254 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d43e32-98bf-49f0-b127-2628d31d6a72")
+	)
+	(junction
 		(at 125.73 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -704,6 +850,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c53db50-3098-4f5c-b408-437419e6dbce")
+	)
+	(junction
+		(at 254 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dcdf8c1-6170-47da-9048-91dfbecd5941")
 	)
 	(junction
 		(at 105.41 49.53)
@@ -820,6 +972,12 @@
 		(uuid "5a2905dc-25f9-4da9-a240-f58d05215dee")
 	)
 	(junction
+		(at 265.43 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bf88779-1c90-48af-95f8-a47bafd7210e")
+	)
+	(junction
 		(at 44.45 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -854,6 +1012,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69d0a648-44b9-47c2-ae66-ece990b0bb40")
+	)
+	(junction
+		(at 233.68 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6abce55e-1177-44aa-9fa0-58c2bfc04011")
 	)
 	(junction
 		(at 186.69 68.58)
@@ -970,10 +1134,22 @@
 		(uuid "84c955bf-74ec-40a2-a88b-2e9ac231988e")
 	)
 	(junction
+		(at 242.57 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84fa382f-c246-430e-801d-af9d8c8137b4")
+	)
+	(junction
 		(at 80.01 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b0c51a-7aff-47c7-9edc-d915fed40e2a")
+	)
+	(junction
+		(at 254 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87c606a2-511d-4ff7-833a-9cf7fa83309e")
 	)
 	(junction
 		(at 120.65 106.68)
@@ -1156,6 +1332,12 @@
 		(uuid "beb27bac-cde8-4d23-8b26-73e19aff4948")
 	)
 	(junction
+		(at 242.57 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e7716c-d212-455a-9040-2cb118efe166")
+	)
+	(junction
 		(at 161.29 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1184,6 +1366,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7a57e6c-225e-4c86-ae78-6ba55dcee1a2")
+	)
+	(junction
+		(at 254 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e68c82-f764-4588-babe-d9932066181b")
 	)
 	(junction
 		(at 161.29 182.88)
@@ -1220,6 +1408,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d477542e-7dce-4c29-9d3e-dd10ffcf642f")
+	)
+	(junction
+		(at 265.43 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4f3663a-0cf1-4aea-bcfc-305eda129ed5")
 	)
 	(junction
 		(at 100.33 125.73)
@@ -1366,6 +1560,12 @@
 		(uuid "f7aa975e-969b-4f60-8d56-a04cc465ec0f")
 	)
 	(junction
+		(at 280.67 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8650b9f-07c5-48fb-91a4-880ce5bd86b4")
+	)
+	(junction
 		(at 105.41 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1374,6 +1574,16 @@
 	(no_connect
 		(at 214.63 22.86)
 		(uuid "faff2dbd-5a5b-43a9-b5ea-f1c1960260a9")
+	)
+	(wire
+		(pts
+			(xy 265.43 30.48) (xy 280.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00240c89-bee7-4de5-b909-bce329f7a4e3")
 	)
 	(wire
 		(pts
@@ -1437,6 +1647,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 30.48) (xy 242.57 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0528915e-9a08-4317-9428-99d3b3061bd9")
+	)
+	(wire
+		(pts
 			(xy 186.69 87.63) (xy 186.69 106.68)
 		)
 		(stroke
@@ -1487,6 +1707,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 20.32) (xy 265.43 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f6610d-d5e0-41bd-bcba-1e4c238b70f2")
+	)
+	(wire
+		(pts
 			(xy 133.35 95.25) (xy 133.35 99.06)
 		)
 		(stroke
@@ -1497,6 +1727,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 33.02) (xy 254 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dadc21e-3ee6-4e77-8e2b-97d4afbecc59")
+	)
+	(wire
+		(pts
 			(xy 100.33 87.63) (xy 100.33 106.68)
 		)
 		(stroke
@@ -1504,6 +1744,16 @@
 			(type default)
 		)
 		(uuid "0e0e9063-ea44-4ad3-a9c5-fb342309a32d")
+	)
+	(wire
+		(pts
+			(xy 242.57 20.32) (xy 254 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea83a8b-3dc0-479d-8ed0-606c52b14be9")
 	)
 	(wire
 		(pts
@@ -1565,6 +1815,16 @@
 		)
 		(uuid "13a542a5-1ee9-4229-b642-f4ec02e8d35c")
 	)
+	(polyline
+		(pts
+			(xy 227.965 196.215) (xy 227.965 12.065)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "146d5c8e-ce6d-4251-8176-d3a17e01b78c")
+	)
 	(wire
 		(pts
 			(xy 125.73 163.83) (xy 125.73 182.88)
@@ -1584,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "15f6dbab-68e4-4f29-8b52-64e954d2daa6")
+	)
+	(wire
+		(pts
+			(xy 242.57 43.18) (xy 242.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f41997-7209-4c4b-aef1-6cab773a245c")
 	)
 	(wire
 		(pts
@@ -1787,6 +2057,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 43.18) (xy 254 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9959b7-df19-4f9b-ba19-deaa781aece1")
+	)
+	(wire
+		(pts
 			(xy 166.37 163.83) (xy 166.37 182.88)
 		)
 		(stroke
@@ -1797,6 +2077,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 43.18) (xy 265.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca54285-c38b-42c7-aab4-df7b686b7122")
+	)
+	(wire
+		(pts
 			(xy 125.73 125.73) (xy 125.73 144.78)
 		)
 		(stroke
@@ -1804,6 +2094,16 @@
 			(type default)
 		)
 		(uuid "2d953298-d06c-4131-9e2b-b2775605916b")
+	)
+	(wire
+		(pts
+			(xy 265.43 43.18) (xy 280.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d98a022-8000-474f-9c01-1592008a5380")
 	)
 	(wire
 		(pts
@@ -1927,6 +2227,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 20.32) (xy 265.43 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f1c195-db45-44f5-8308-cb71d712d133")
+	)
+	(wire
+		(pts
 			(xy 113.03 76.2) (xy 113.03 80.01)
 		)
 		(stroke
@@ -1947,6 +2257,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 43.18) (xy 254 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b465c11-3753-4cac-a901-22180cb560ec")
+	)
+	(wire
+		(pts
 			(xy 161.29 87.63) (xy 161.29 106.68)
 		)
 		(stroke
@@ -1964,6 +2284,16 @@
 			(type default)
 		)
 		(uuid "3dd56569-82c1-44ec-8424-a7c68047cfd3")
+	)
+	(wire
+		(pts
+			(xy 242.57 30.48) (xy 254 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401038d2-6070-4a0d-9ac5-866b20c8c6d6")
 	)
 	(wire
 		(pts
@@ -2307,6 +2637,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 43.18) (xy 280.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbfbf5b-29a4-4085-9b4c-508be08a9ac6")
+	)
+	(wire
+		(pts
 			(xy 31.75 152.4) (xy 31.75 156.21)
 		)
 		(stroke
@@ -2465,6 +2805,16 @@
 		)
 		(uuid "6e3e4a30-875d-4a8c-bfca-fe4f48e53793")
 	)
+	(polyline
+		(pts
+			(xy 227.965 55.88) (xy 284.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6e80d529-f40d-45b2-8977-0e506d7acf29")
+	)
 	(wire
 		(pts
 			(xy 80.01 144.78) (xy 80.01 163.83)
@@ -2574,6 +2924,16 @@
 			(type default)
 		)
 		(uuid "788e4177-eef4-4517-91c2-1db7b9ea7a2a")
+	)
+	(wire
+		(pts
+			(xy 254 20.32) (xy 254 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789372d3-fd3c-4d58-a596-837084942d23")
 	)
 	(wire
 		(pts
@@ -2697,6 +3057,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 33.02) (xy 254 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8239830f-2e85-4487-a359-374cfbde08d7")
+	)
+	(wire
+		(pts
 			(xy 52.07 152.4) (xy 52.07 156.21)
 		)
 		(stroke
@@ -2757,6 +3127,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 33.02) (xy 242.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862c66ff-6dd4-435d-ad7d-b2c9d065658c")
+	)
+	(wire
+		(pts
 			(xy 85.09 30.48) (xy 85.09 49.53)
 		)
 		(stroke
@@ -2784,6 +3164,16 @@
 			(type default)
 		)
 		(uuid "8be55f12-2b9c-42b5-a9ec-2bc8e734f8f2")
+	)
+	(wire
+		(pts
+			(xy 280.67 30.48) (xy 280.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d47076f-3411-4803-b314-e694c7da561e")
 	)
 	(wire
 		(pts
@@ -2847,6 +3237,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 33.02) (xy 242.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933581c3-0164-478c-b142-679011f9a648")
+	)
+	(wire
+		(pts
 			(xy 92.71 38.1) (xy 92.71 41.91)
 		)
 		(stroke
@@ -2904,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "9a9d0f28-44f4-44a1-8eac-63b56a82e5d6")
+	)
+	(wire
+		(pts
+			(xy 242.57 20.32) (xy 242.57 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b060141-7c3c-442e-87b6-5236bd19099a")
 	)
 	(wire
 		(pts
@@ -3054,6 +3464,16 @@
 			(type default)
 		)
 		(uuid "a83b5758-35a9-46a9-9b3c-c90ebec87308")
+	)
+	(wire
+		(pts
+			(xy 265.43 30.48) (xy 265.43 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90f9fbf-23c4-4f24-9870-dea5e8f6bd77")
 	)
 	(wire
 		(pts
@@ -3224,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "b7585a63-ba92-4a7c-87d9-41be07f28529")
+	)
+	(wire
+		(pts
+			(xy 254 43.18) (xy 265.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7960665-ff55-47ba-8fe9-f448cb2561de")
 	)
 	(wire
 		(pts
@@ -3667,6 +4097,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 20.32) (xy 242.57 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f2bdc9-11f7-4e2b-b164-5ecd7e6e8f83")
+	)
+	(wire
+		(pts
 			(xy 24.13 125.73) (xy 24.13 144.78)
 		)
 		(stroke
@@ -3827,6 +4267,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 33.02) (xy 265.43 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7f7767-7ccc-4838-84e7-816d56d1b682")
+	)
+	(wire
+		(pts
 			(xy 72.39 38.1) (xy 72.39 41.91)
 		)
 		(stroke
@@ -3844,6 +4294,16 @@
 			(type default)
 		)
 		(uuid "df4d931c-24b2-430e-8af5-4bdec68fd59c")
+	)
+	(wire
+		(pts
+			(xy 233.68 20.32) (xy 233.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5c17be-dca5-43f4-95b1-219f2376a34e")
 	)
 	(wire
 		(pts
@@ -3904,6 +4364,16 @@
 			(type default)
 		)
 		(uuid "e71f9cc2-3bda-4a88-8163-37a22aed30fb")
+	)
+	(wire
+		(pts
+			(xy 254 33.02) (xy 265.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8403b11-b149-42a4-abe3-9a888c4553b0")
 	)
 	(wire
 		(pts
@@ -4037,6 +4507,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 30.48) (xy 254 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e1afa0-8ff6-4481-a18a-e4725b9420dc")
+	)
+	(wire
+		(pts
 			(xy 113.03 38.1) (xy 113.03 41.91)
 		)
 		(stroke
@@ -4064,6 +4544,16 @@
 			(type default)
 		)
 		(uuid "f9c40ad8-7caf-43d7-9ac0-84cbbeeb29b7")
+	)
+	(wire
+		(pts
+			(xy 254 30.48) (xy 265.43 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3b5815-ade1-4e75-b096-0996cef38e1b")
 	)
 	(wire
 		(pts
@@ -4115,6 +4605,72 @@
 			(justify right)
 		)
 		(uuid "6dcb25b5-0445-4849-8e13-44f16fb40865")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01847e52-b613-48f7-9fa7-471cfba8b9d8")
+		(property "Reference" "#PWR012"
+			(at 280.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e1fd8f9-8349-42a8-a320-7ea95a16739c")
+		)
+		(instances
+			(project ""
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
@@ -4329,6 +4885,72 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "LED68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Vdrive")
+		(at 166.37 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e93e78a-95f1-4cbb-8523-6538c9910bc6")
+		(property "Reference" "#PWR029"
+			(at 166.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 166.37 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 166.37 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf60674b-041f-4836-80eb-dd0c6fe12fcc")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4867,6 +5489,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Vdrive")
+		(at 233.68 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d15f06f-115b-4bbd-9ad5-bf0ed27a31e0")
+		(property "Reference" "#PWR011"
+			(at 233.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 233.68 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 233.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd050bfe-10d7-46e9-85e1-0852f794ddc0")
+		)
+		(instances
+			(project ""
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
 		(at 173.99 182.88 90)
 		(unit 1)
@@ -4943,6 +5631,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Vdrive")
+		(at 207.01 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f59afd2-9639-408c-ab01-1d7f2afe9ca6")
+		(property "Reference" "#PWR027"
+			(at 207.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 207.01 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 207.01 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eacd9be1-1f55-46c9-bc1d-00a37afe50dd")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
 		(at 31.75 30.48 270)
 		(unit 1)
@@ -5013,6 +5767,138 @@
 			(project ""
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Vdrive")
+		(at 39.37 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22054c40-f26c-4859-9027-7c10984cc3cb")
+		(property "Reference" "#PWR036"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 39.37 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 39.37 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9fd73f4-fb37-40b5-b625-b121c86dd644")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Vdrive")
+		(at 105.41 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27bcc9cb-b378-4777-8b5a-19a3cc54c698")
+		(property "Reference" "#PWR032"
+			(at 105.41 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 105.41 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 105.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54c40355-0cc7-4901-8fad-3063b61846f4")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5465,72 +6351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 44.45 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dd27e8c-d869-409c-aafa-9c1ed71798a6")
-		(property "Reference" "#PWR020"
-			(at 44.45 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 44.45 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 44.45 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbc8")
-		)
-		(instances
-			(project ""
-				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
 		(at 113.03 125.73 90)
 		(unit 1)
@@ -5601,6 +6421,76 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "LED42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 265.43 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39bd62d0-15e7-43c0-80b5-6432e21719ac")
+		(property "Reference" "C4"
+			(at 267.97 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 267.97 39.3762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 265.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 265.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cdd61a2-277f-4f5c-b868-137ab4f07766")
+		)
+		(pin "1"
+			(uuid "663cbe62-f201-4da7-91f2-c51ba4a02720")
+		)
+		(instances
+			(project ""
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5743,72 +6633,6 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "LED28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 64.77 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47532812-f874-4026-a8b6-04569913269a")
-		(property "Reference" "#PWR019"
-			(at 64.77 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 64.77 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 64.77 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbc9")
-		)
-		(instances
-			(project ""
-				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6179,6 +7003,76 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 254 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53603229-0481-4f2b-9700-2a1825beef2e")
+		(property "Reference" "C1"
+			(at 256.54 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 256.54 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 254 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 254 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cdd61a2-277f-4f5c-b868-137ab4f07767")
+		)
+		(pin "1"
+			(uuid "663cbe62-f201-4da7-91f2-c51ba4a02721")
+		)
+		(instances
+			(project ""
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6565,17 +7459,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 125.73 20.32 0)
+		(lib_id "power:Vdrive")
+		(at 85.09 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "62aa58a3-7f1d-4baa-8766-eee78a3f14e3")
-		(property "Reference" "#PWR016"
-			(at 125.73 24.13 0)
+		(uuid "63f56d35-567d-4537-a5f1-4bc3e1bccfee")
+		(property "Reference" "#PWR033"
+			(at 85.09 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,8 +7477,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 125.73 15.24 0)
+		(property "Value" "Vdrive"
+			(at 85.09 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +7486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 20.32 0)
+			(at 85.09 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +7495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 20.32 0)
+			(at 85.09 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,8 +7503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 125.73 20.32 0)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 85.09 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,12 +7513,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbca")
+			(uuid "06bd801f-14d0-4ec9-94c6-dfeb92251439")
 		)
 		(instances
-			(project ""
+			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR016")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6859,138 +7753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 39.37 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6798b927-3603-46e6-a291-95c7dffc5b60")
-		(property "Reference" "#PWR021"
-			(at 39.37 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 39.37 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 39.37 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c860aabc-a271-4863-b078-1b8e42fff2a8")
-		)
-		(instances
-			(project "LowJungle"
-				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 207.01 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67bcde8b-954e-4ecf-a4fc-324bb8fcb89a")
-		(property "Reference" "#PWR011"
-			(at 207.01 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 207.01 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 207.01 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbcb")
-		)
-		(instances
-			(project ""
-				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
 		(at 214.63 87.63 90)
 		(unit 1)
@@ -7213,6 +7975,76 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 242.57 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75cc7025-9d77-4a75-8d4a-2c79b5a18c6a")
+		(property "Reference" "C5"
+			(at 245.11 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 245.11 39.3762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 242.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 242.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cdd61a2-277f-4f5c-b868-137ab4f07768")
+		)
+		(pin "1"
+			(uuid "663cbe62-f201-4da7-91f2-c51ba4a02722")
+		)
+		(instances
+			(project ""
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7665,6 +8497,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Vdrive")
+		(at 125.73 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88bc6652-69fc-44b7-87cc-cfe46186cddd")
+		(property "Reference" "#PWR031"
+			(at 125.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 125.73 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67ba2e83-517b-454a-98cf-597aabc72de7")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Vdrive")
+		(at 146.05 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a6fc867-232c-4893-ab93-76f1f8afbaef")
+		(property "Reference" "#PWR030"
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 146.05 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 146.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ba113f4-3e3a-4d89-bcdd-963147b342aa")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
 		(at 72.39 125.73 90)
 		(unit 1)
@@ -7969,6 +8933,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 265.43 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fe0e590-b8e9-4115-b902-762d755132c4")
+		(property "Reference" "C2"
+			(at 267.97 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 267.97 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cdd61a2-277f-4f5c-b868-137ab4f07769")
+		)
+		(pin "1"
+			(uuid "663cbe62-f201-4da7-91f2-c51ba4a02723")
+		)
+		(instances
+			(project ""
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
 		(at 153.67 49.53 90)
 		(unit 1)
@@ -8039,6 +9073,146 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "LED56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 254 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d2c364-c516-4b09-aa0a-a6276719933b")
+		(property "Reference" "C6"
+			(at 256.54 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 256.54 39.3762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cdd61a2-277f-4f5c-b868-137ab4f0776a")
+		)
+		(pin "1"
+			(uuid "663cbe62-f201-4da7-91f2-c51ba4a02724")
+		)
+		(instances
+			(project ""
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 242.57 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9abf87fa-595b-4c85-8095-7c0eca1efdfe")
+		(property "Reference" "C3"
+			(at 245.11 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 245.11 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 242.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 242.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cdd61a2-277f-4f5c-b868-137ab4f0776b")
+		)
+		(pin "1"
+			(uuid "663cbe62-f201-4da7-91f2-c51ba4a02725")
+		)
+		(instances
+			(project ""
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9023,17 +10197,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 146.05 20.32 0)
+		(lib_id "power:Vdrive")
+		(at 44.45 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b17ddb41-c6cb-4bb8-9b1c-da5a96590b6e")
-		(property "Reference" "#PWR015"
-			(at 146.05 24.13 0)
+		(uuid "b16df582-662c-4dce-bd7e-a20cf8075467")
+		(property "Reference" "#PWR035"
+			(at 44.45 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,8 +10215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 146.05 15.24 0)
+		(property "Value" "Vdrive"
+			(at 44.45 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,7 +10224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 20.32 0)
+			(at 44.45 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +10233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 20.32 0)
+			(at 44.45 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,8 +10241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 146.05 20.32 0)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 44.45 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,12 +10251,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbcc")
+			(uuid "8815736c-c51c-4acb-ab6b-d90484532781")
 		)
 		(instances
-			(project ""
+			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR015")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9459,17 +10633,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 166.37 20.32 0)
+		(lib_id "power:Vdrive")
+		(at 64.77 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd1e1f23-b5d1-49fd-b818-2295712b374e")
-		(property "Reference" "#PWR013"
-			(at 166.37 24.13 0)
+		(uuid "bcb6a7b8-ba54-4a17-8576-f2d1ebe4a4d8")
+		(property "Reference" "#PWR034"
+			(at 64.77 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,8 +10651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 166.37 15.24 0)
+		(property "Value" "Vdrive"
+			(at 64.77 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +10660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 20.32 0)
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +10669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 20.32 0)
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,8 +10677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 166.37 20.32 0)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,12 +10687,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbcd")
+			(uuid "46278cce-e899-4ce2-a0c8-7060a5996dcc")
 		)
 		(instances
-			(project ""
+			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR013")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9671,72 +10845,6 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "LED35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 85.09 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4bc0f7e-1b91-4ddb-96af-a518d9ce55da")
-		(property "Reference" "#PWR018"
-			(at 85.09 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 85.09 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 85.09 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbce")
-		)
-		(instances
-			(project ""
-				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9971,72 +11079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 105.41 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "caf5b979-3b32-4ddb-9f56-a41a244c98c6")
-		(property "Reference" "#PWR017"
-			(at 105.41 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 105.41 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 105.41 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbcf")
-		)
-		(instances
-			(project ""
-				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
 		(at 194.31 87.63 90)
 		(unit 1)
@@ -10113,6 +11155,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Vdrive")
+		(at 186.69 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd391f00-2886-4603-a015-f2e01e972a53")
+		(property "Reference" "#PWR028"
+			(at 186.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 186.69 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 186.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23281d96-6617-4800-a027-1e626e2c086c")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SK6812MINI-E")
 		(at 153.67 144.78 90)
 		(unit 1)
@@ -10183,72 +11291,6 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
 					(reference "LED61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 186.69 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf899295-555b-4756-b5c6-2d57212dbde2")
-		(property "Reference" "#PWR012"
-			(at 186.69 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 186.69 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 186.69 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6ba476-6087-46ea-a7c3-a6a43ac5fbd0")
-		)
-		(instances
-			(project ""
-				(path "/35a333ff-4765-4a57-b568-da2531002cc6/dad282c8-674f-4062-a32d-534326400aad"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)

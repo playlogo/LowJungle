@@ -9262,7 +9262,7 @@
 			(net 75 "Net-(D68-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "628b2acd-7668-4a6b-9e7d-e8e3776ede1d")
+			(uuid "96b38aec-13ff-4593-8b9b-99642654eb3a")
 		)
 		(pad "1" thru_hole circle
 			(at -4.4 4.7)
@@ -9273,7 +9273,7 @@
 			(net 75 "Net-(D68-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "628b2acd-7668-4a6b-9e7d-e8e3776ede1d")
+			(uuid "de04710e-b620-4039-b07a-b6563093bb72")
 		)
 		(pad "2" thru_hole circle
 			(at 2.6 5.75)
@@ -9293,7 +9293,7 @@
 			(net 67 "/KeyMatrix/COLUM_7")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "30e391a8-9198-4bf6-8313-aead32c19c39")
+			(uuid "3298cf78-fca3-4f34-af88-dd53aa75bfd2")
 		)
 		(pad "2" smd roundrect
 			(at 5.845 5.75)
@@ -9303,7 +9303,7 @@
 			(net 67 "/KeyMatrix/COLUM_7")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "30e391a8-9198-4bf6-8313-aead32c19c39")
+			(uuid "57aebfb0-7aff-477f-aa06-78ed4c846a06")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_KS-2P02B01-02_KS33.step"
@@ -32033,7 +32033,7 @@
 			(net 76 "Net-(D69-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "da14d417-21ad-4e5d-b8b4-dbceee8a1fab")
+			(uuid "a52286bb-a3fa-4669-85ef-3e7ee0e1c64e")
 		)
 		(pad "1" thru_hole circle
 			(at -4.4 4.7)
@@ -32044,7 +32044,7 @@
 			(net 76 "Net-(D69-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "da14d417-21ad-4e5d-b8b4-dbceee8a1fab")
+			(uuid "164e0766-8892-4e8a-82f1-bb40a9b15e4c")
 		)
 		(pad "2" thru_hole circle
 			(at 2.6 5.75)
@@ -32064,7 +32064,7 @@
 			(net 67 "/KeyMatrix/COLUM_7")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4015c519-4bc6-4c57-b4c1-3d9c95d67832")
+			(uuid "fbb4212d-9c2f-4746-af90-edff6b8ff917")
 		)
 		(pad "2" smd roundrect
 			(at 5.845 5.75)
@@ -32074,7 +32074,7 @@
 			(net 67 "/KeyMatrix/COLUM_7")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4015c519-4bc6-4c57-b4c1-3d9c95d67832")
+			(uuid "e039d631-cbb0-498d-bc50-9c6440a5a696")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_KS-2P02B01-02_KS33.step"
@@ -43179,7 +43179,7 @@
 			(net 77 "Net-(D70-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "60700fc8-72cb-4d75-91f4-df9b898af648")
+			(uuid "0dd0ea6e-4374-45df-b74f-8cb17dff0b46")
 		)
 		(pad "1" thru_hole circle
 			(at -4.4 4.7)
@@ -43190,7 +43190,7 @@
 			(net 77 "Net-(D70-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "60700fc8-72cb-4d75-91f4-df9b898af648")
+			(uuid "cfcb3e88-0f4f-4f60-8eec-3eb89bc40bce")
 		)
 		(pad "2" thru_hole circle
 			(at 2.6 5.75)
@@ -43210,7 +43210,7 @@
 			(net 67 "/KeyMatrix/COLUM_7")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "dd2e6b37-0eb3-4a7b-8620-c22a58c19057")
+			(uuid "1677acdd-df08-42e1-91b3-6ca07447cc1f")
 		)
 		(pad "2" smd roundrect
 			(at 5.845 5.75)
@@ -43220,7 +43220,7 @@
 			(net 67 "/KeyMatrix/COLUM_7")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "dd2e6b37-0eb3-4a7b-8620-c22a58c19057")
+			(uuid "46f0e1a2-f48a-48bb-8132-692c18f5cd69")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_KS-2P02B01-02_KS33.step"
@@ -55444,7 +55444,7 @@
 			(net 26 "Net-(D23-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4e338d7d-0ddc-40ce-a48d-79a7db43e29b")
+			(uuid "f15d3614-1319-4a60-b2da-1dc42374ef50")
 		)
 		(pad "1" thru_hole circle
 			(at -4.4 4.7)
@@ -55455,7 +55455,7 @@
 			(net 26 "Net-(D23-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4e338d7d-0ddc-40ce-a48d-79a7db43e29b")
+			(uuid "0790935f-fec5-40c9-b720-ce1b1b204cbe")
 		)
 		(pad "2" thru_hole circle
 			(at 2.6 5.75)
@@ -55475,7 +55475,7 @@
 			(net 23 "/KeyMatrix/COLUM_3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7c0838e9-3c5f-4837-bea8-d59671e82230")
+			(uuid "e7356bbd-b1ba-416a-a910-425c0f502355")
 		)
 		(pad "2" smd roundrect
 			(at 5.845 5.75)
@@ -55485,7 +55485,7 @@
 			(net 23 "/KeyMatrix/COLUM_3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7c0838e9-3c5f-4837-bea8-d59671e82230")
+			(uuid "6425ff0b-81a1-4fc3-ae1f-f24e9b2445a5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_KS-2P02B01-02_KS33.step"
@@ -145041,8 +145041,8 @@
 		)
 	)
 	(gr_rect
-		(start 21.43125 21.43125)
-		(end 400.05 173.83125)
+		(start 19.048125 23.8175)
+		(end 390.526875 157.1625)
 		(stroke
 			(width 0.05)
 			(type default)

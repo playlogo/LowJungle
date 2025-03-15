@@ -1229,8 +1229,8 @@
 		)
 	)
 	(sheet
-		(at 161.29 49.53)
-		(size 26.67 54.61)
+		(at 161.29 41.91)
+		(size 26.67 62.23)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1245,7 +1245,7 @@
 		)
 		(uuid "5d0b8adb-c466-4412-9919-10a106c1d627")
 		(property "Sheetname" "KeyMatrix"
-			(at 161.29 48.8184 0)
+			(at 161.29 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1586,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_1" input
+		(pin "GPIO_1" output
 			(at 135.89 138.43 0)
 			(uuid "28da8b02-eeec-4d85-afc6-d71b3de7d097")
 			(effects

@@ -21,7 +21,8 @@ For production: QMK
 
 ## PCB
 
-- [x] No relevant ERC & DRC errors
+- [Schematic](assets/schematic.pdf)
+- No relevant ERC & DRC errors
 - Size: 371.48mm x 133.35mm
 - VCC for backlight LEDs can be controlled by the ESP32 using 2 mosfets
 - Used libraries:
@@ -34,7 +35,7 @@ For production: QMK
 
 **Fasteners:** None - got everything in stock
 
-**PCB:** $36.34 at JLCPCB
+**PCB:** [$36.34 at JLCPCB](assets/jlcpcb.png)
 
 **Switches:** [Aliexpress: Gateron KS33 low-profile red, 90 for $38.63 => 0.43 per switch](https://de.aliexpress.com/item/1005007794069535.html)
 
@@ -84,7 +85,7 @@ Total (with combined order): $6.01
 
 Total: $11.88
 
-### Total
+### Parts total
 
 **Fasteners:** $0  
 **PCB:** $36.34  

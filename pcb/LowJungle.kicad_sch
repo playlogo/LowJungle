@@ -218,6 +218,18 @@
 		)
 	)
 	(junction
+		(at 41.91 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c53824-99a8-48ec-a220-d4a293a60036")
+	)
+	(junction
+		(at 41.91 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "156125af-7248-4086-802c-b56383e0ef82")
+	)
+	(junction
 		(at 41.91 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -559,6 +571,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 116.84) (xy 41.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bd02d6-a409-46ec-8faf-86947d478544")
+	)
+	(wire
+		(pts
 			(xy 135.89 95.25) (xy 161.29 95.25)
 		)
 		(stroke
@@ -576,6 +598,16 @@
 			(type default)
 		)
 		(uuid "e71f6776-a239-4508-a5ad-717be0613148")
+	)
+	(wire
+		(pts
+			(xy 41.91 110.49) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c222f5-bfa8-4e25-846f-53486f411268")
 	)
 	(wire
 		(pts
@@ -671,6 +703,75 @@
 			(project "LowJungle"
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6"
 					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 116.84 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22165d52-99ff-4aad-a72b-76be43998347")
+		(property "Reference" "H8"
+			(at 48.26 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 48.26 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cc488a0-6df2-45c0-a771-af2e3ca12d6e")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -1013,6 +1114,75 @@
 			(project ""
 				(path "/35a333ff-4765-4a57-b568-da2531002cc6"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 110.49 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed20cd33-60d6-47b6-a608-0c7c3f40e412")
+		(property "Reference" "H9"
+			(at 48.26 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 48.26 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f27d5437-026d-4827-872e-7f2ed8a77dff")
+		)
+		(instances
+			(project "LowJungle"
+				(path "/35a333ff-4765-4a57-b568-da2531002cc6"
+					(reference "H9")
 					(unit 1)
 				)
 			)

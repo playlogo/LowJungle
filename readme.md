@@ -85,6 +85,17 @@ Total (with combined order): $6.01
 
 Total: $11.88
 
+**Other parts:**
+
+|Name|Reason|Price|Link|
+|----|------|-----|----|
+| Poron foam, Bottom case <-> PCB, 2.5mm 15x35cm | Sound damping | $6.10 | [Aliexpress](https://de.aliexpress.com/item/1005007442653383.html)|
+| EVA foam, PCB <-> Top plate , 1mm 35x50cm | Stability of top plate |  $2.05 | [Aliexpress](https://de.aliexpress.com/item/1005002856054113.html)|
+|EVA foam, PCB <-> Keyswitch  | Sound damping | $3.42 | [Aliexpress](https://de.aliexpress.com/item/1005005556269716.html)|
+|PE foam, Top plate <-> Keyswitch | Water spill protection (has happened before) | $2.19 | [Aliexpress](https://de.aliexpress.com/item/1005004804230184.html)|
+
+Total: $13,76
+
 ### Parts total
 
 **Fasteners:** $0  
@@ -94,8 +105,9 @@ Total: $11.88
 **Stabilizers:** $13.79  
 **MCU:** $6.01  
 **Misc Electronics:** $11.88  
+**Other parts:** $13,76
 
-**Total:** $128.26
+**Total:** $142,02
 
 > Note: Aliexpress prices are only valid until 26. March (15. anniversary sale)
-> => If possible increase grand total by ~$15 if issued after 24. March (some buffer). Unused amount would be returned to HackClub.
+> => If the grant is issued after 24. March, it would be awesome to have ~$15 buffer for changed prices. The unused amount would be returned to HackClub.

@@ -788,18 +788,6 @@
 		(layer "B.Fab")
 		(uuid "502d8a2a-ed54-411a-917c-c603bb82625c")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -8.255 180)
-		(layer "B.SilkS")
-		(uuid "31f71f69-e7fc-442d-8c59-73ecff97e651")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
 	(fp_text user "LED"
 		(at -0.7 -5.175 180)
 		(unlocked yes)

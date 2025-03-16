@@ -13,10 +13,10 @@ A low profile, ~65% keyboard, with:
 
 ## Firmware
 
-For testing: KMK
+For testing: KMK  
 For production: QMK
 
-> Circuitpython is soooo much nicer for finding errors in the hardware
+> Circuitpython is soooo much nicer for finding errors in the hardware  
 > Status KMK: Pins are correct, keymap is WIP
 
 ## PCB
@@ -44,11 +44,11 @@ For production: QMK
 
 **MCU:**
 
-Note: The ESP32S3 implementation is the same as in my [Hackpad](https://github.com/hackclub/hackpad/pull/570). Thus the cost can be drastically reduced when combining both LCSC orders:
-
-- -$3: Removed handling fee
-- -$6: Random shipping coupon,
-- and often times the MOQ from hackpad also covers this project
+> Note: The ESP32S3 implementation is the same as in my [Hackpad](https://github.com/hackclub/hackpad/pull/570). Thus the cost can be drastically reduced when combining both LCSC orders:
+>
+> - -$3: Removed handling fee
+> - -$6: Random shipping coupon,
+> - and often times the MOQ from hackpad also covers this project
 
 |Name|Price|Link| Needed if combined order ? |
 |----|-----|----|----------------------------|
@@ -69,11 +69,10 @@ Note: The ESP32S3 implementation is the same as in my [Hackpad](https://github.c
 | 5.1k * | $0.15 for MOQ | [LCSC](https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8J0512T5E_C26023.html?s_z=n_resistor) | No |
 | 100k * |  $0.13 for MOQ | [LCSC](https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_VO-SCR0805J100K_C3017875.html?s_z=n_resistor) | No |
 
-Total (without combined order): $11.46
-
+Total (without combined order): $11.46  
 Total (with combined order): $6.01
 
-Note: Combined LCSC order will be around ~$28 (including shipping) for both hackpad and hackboard
+>Note: Combined LCSC order will be around ~$28 (including shipping) for both hackpad and hackboard
 
 **Misc Electronics:**
 
@@ -87,13 +86,13 @@ Total: $11.88
 
 ### Total
 
-**Fasteners:** $0
+**Fasteners:** $0  
 **PCB:** $36.34  
-**Switches:** $38.63
-**Keycaps:** $21.61
-**Stabilizers:** $13.79
-**MCU:** $6.01
-**Misc Electronics:** $11.88
+**Switches:** $38.63  
+**Keycaps:** $21.61  
+**Stabilizers:** $13.79  
+**MCU:** $6.01  
+**Misc Electronics:** $11.88  
 
 **Total:** $128.26
 

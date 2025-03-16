@@ -3,6 +3,7 @@
 ![Layout](assets/layout.png)
 ![PCB](assets/pcb_components.png)
 ![PCB](assets/pcb_routing.png)
+![Case](assets/case.png)
 
 A low profile, ~65% keyboard, with:
 
@@ -10,6 +11,11 @@ A low profile, ~65% keyboard, with:
 - Per key RGB backlight
 - Wifi & BLE (but no battery)
 - Integrated 3 port USB Hub
+
+Links:
+
+- [Onshape: Case](https://cad.onshape.com/documents/196ae99135554e28081e9cd8/w/09114671e2d692aadc408c6f/e/86be969bd7a114ceaf756b4a?renderMode=0&uiState=67d72bd2d4975832f10ffe5c)
+- [Keyboard Layout Editor: Layout](https://www.keyboard-layout-editor.com/#/gists/81105ca4efea79bf3cdf03d682872e17)
 
 ## Firmware
 
@@ -48,7 +54,7 @@ For production: QMK
 > Note: The ESP32S3 implementation is the same as in my [Hackpad](https://github.com/hackclub/hackpad/pull/570). Thus the cost can be drastically reduced when combining both LCSC orders:
 >
 > - -$3: Removed handling fee
-> - -$6: Random shipping coupon,
+> - -$6: Random shipping coupon
 > - and often times the MOQ from hackpad also covers this project
 
 |Name|Price|Link| Needed if combined order ? |
@@ -80,7 +86,7 @@ Total (with combined order): $6.01
 |Name|Price|Link|
 | ----- | ---- | ---- |
 | SK6812 MINI-E | $2.85 for 100 | [Aliexpress](https://de.aliexpress.com/item/1005002782417198.html) |
-| Gateron Low-profile hot-swap socket | $9.03 for 100 => $0.1 per | [Aliexpress](https://de.aliexpress.com/item/1005008078611488.html?spm=a2g0o.productlist.main.1.3d3470f0o9Li2s&algo_pvid=ef243bac-f923-4f5b-85e0-b6818cdc378c&pdp_ext_f=%7B%22order%22%3A%2223%22%2C%22eval%22%3A%221%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A) |
+| Gateron Low-profile hot-swap socket | $9.03 for 100 => $0.1 per socket | [Aliexpress](https://de.aliexpress.com/item/1005008078611488.html?spm=a2g0o.productlist.main.1.3d3470f0o9Li2s&algo_pvid=ef243bac-f923-4f5b-85e0-b6818cdc378c&pdp_ext_f=%7B%22order%22%3A%2223%22%2C%22eval%22%3A%221%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A) |
 | Rotary-encoder | in stock | - |
 
 Total: $11.88

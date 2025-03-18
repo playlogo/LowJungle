@@ -37,9 +37,24 @@ For production: QMK
     - Download `C2913204, C192893, C2891732, C778164, C2988369, C8547, C503996, C82942` using `easyeda2kicad --full --lcsc_id=<id>` (one-by-one, yes...)
   - `0_Custom`, included in the `libraries` folder, should load automatically
 
-## Parts
+## Fabrication
 
-**Fasteners:** None - got everything in stock
+> I'm print all parts myself using [the large scale 3D printer (Billig)](https://github.com/playlogo/billig) I'm build for [infill](https://github.com/hackclub/infill).
+
+> Download the latest revision from [Onshape](https://cad.onshape.com/documents/196ae99135554e28081e9cd8/w/09114671e2d692aadc408c6f/e/86be969bd7a114ceaf756b4a?renderMode=0&uiState=67d72bd2d4975832f10ffe5c). STLs included with this repo are only meant as a backup if the onshape link ever stops working.
+
+- Largest part: 380mmx145mm
+- Recommended settings:
+  - 6 wall loops
+  - 6 solid top & bottom layers
+  - 40% infill
+- Notes:
+  - `LowJungle-Backplate-V2.stl`: Should be solid
+  - `LowJungle-Bumper-Bottom-V2.stl`: Print with TPU, 3x
+  - `LowJungle-Bumper-Top-V2.stl`: 4x
+  - `LowJungle-Frame-V2.stl`: Manually place tree supports for the USB connector cutouts
+
+## BOM
 
 **PCB:** [$36.34 at JLCPCB](assets/jlcpcb.png)
 
@@ -48,6 +63,17 @@ For production: QMK
 **Keycaps:** [Aliexpress: Low profile set, 143 lily version, $21.61](https://de.aliexpress.com/item/1005004882406296.html)
 
 **Stabilizers:** [Aliexpress: Gateron low-profile stabilizer set, 4x 2u 1x 6.25u, $13.79](https://de.aliexpress.com/item/1005005296240590.html)
+
+**Fasteners:**
+
+| Name | Price | Link |
+|------|-------|------|
+| 30x M2.5x3x3.5mm Heat insert | $1.83 | [Aliexpress](https://de.aliexpress.com/item/1005003582355741.html) |
+| 14x M2.5x6mm Hex socket screw (for feet) | $1.41 | [Aliexpress](https://de.aliexpress.com/item/32810872544.html)|
+| 16x M2.5x8mm Hex socket screw (for mounting frame) | $1.64 | [Aliexpress](https://de.aliexpress.com/item/32810872544.html) |
+| 9x M3x10mm Hex socket screw | $1.79 | [Aliexpress](https://de.aliexpress.com/item/32810872544.html) |
+
+Total: $6,67
 
 **MCU:**
 
@@ -102,9 +128,9 @@ Total: $11.88
 
 Total: $13,76
 
-### Parts total
+### BOM total
 
-**Fasteners:** $0  
+**Fasteners:** $6,67
 **PCB:** $36.34  
 **Switches:** $38.63  
 **Keycaps:** $21.61  
@@ -113,7 +139,7 @@ Total: $13,76
 **Misc Electronics:** $11.88  
 **Other parts:** $13,76
 
-**Total:** $142,02
+**Total:** $148,69
 
 > Note: Aliexpress prices are only valid until 26. March (15. anniversary sale)
 > => If the grant is issued after 24. March, it would be awesome to have ~$15 buffer for changed prices. The unused amount would be returned to HackClub.
